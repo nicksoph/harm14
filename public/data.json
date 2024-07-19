@@ -1,0 +1,56 @@
+{
+  "time": { "start": 1.6, "end": 110, "steps": 1000 },
+  "pendulums": [
+    {
+      "axis": "x",
+      "amplitude": 1,
+      "frequency": 1,
+      "phase": 0,
+      "damping": 0.1
+    },
+    {
+      "axis": "y",
+      "amplitude": 2,
+      "frequency": 2,
+      "phase": 1.54,
+      "damping": 0.1
+    },
+    {
+      "axis": "x",
+      "amplitude": 1.1,
+      "frequency": 1,
+      "phase": 0.01,
+      "damping": 0.1
+    },
+    {
+      "axis": "y",
+      "amplitude": 2,
+      "frequency": 2,
+      "phase": 1.74,
+      "damping": 0.1
+    }
+  ],
+  "rotateData": { "rotate": false, "speed": 0 },
+  "colors": [
+    { "place": 0, "color": "#FF0000", "rgbColor": [255, 0, 0] },
+    { "place": 100, "color": "#00FF00", "rgbColor": [0, 255, 0] },
+    { "place": 1000, "color": "#000000", "rgbColor": [0, 0, 0] }
+  ],
+  "widths": [
+    { "place": 0, "width": 1100 },
+    { "place": 105, "width": 200 },
+    { "place": 1000, "width": 1 }
+  ],
+  "transps": [
+    { "place": 0, "width": 1100 },
+    { "place": 105, "width": 200 },
+    { "place": 1000, "width": 1 }
+  ],
+  "loops": [
+    {
+      "color": { "loop": "false", "looplength": 12, "loopoffset": 3 },
+      "width": { "loop": "false", "looplength": 15, "loopoffset": 1 },
+      "transp": { "loop": "false", "looplength": 15, "loopoffset": 1 }
+    }
+  ]
+}
